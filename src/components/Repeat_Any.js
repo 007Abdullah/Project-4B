@@ -13,7 +13,6 @@ export const Repeat = (props) => {
                     <img src={starts} alt="Starts" style={{ width: '2%' }} />
                 </figure>
                 <hr style={{ width: '12%' }} />
-
             </div>
         </React.Fragment>
     )

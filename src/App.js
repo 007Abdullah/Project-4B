@@ -3,6 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Home } from './components/Home';
 import { Feature } from './components/Feature';
 import { About } from './components/About';
+import { Contact } from './components/Contact';
+
 
 const useStyles = makeStyles(() => ({
   main_div: {
@@ -19,6 +21,7 @@ function App() {
         <Home />
         <Feature />
         <About />
+        <Contact />
       </div>
     </React.Fragment>
   );
