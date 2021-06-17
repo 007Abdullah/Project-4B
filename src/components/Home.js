@@ -3,6 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import nikeShoe from './../images/pixlr-bg-result.png';
+import useWebAnimations, { flipInX } from '@wellyshen/use-web-animations';
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -24,7 +26,10 @@ const useStyles = makeStyles((theme) => ({
 
 export const Home = () => {
 
+
     const classes = useStyles();
+    const { ref } = useWebAnimations({ ...flipInX });
+
 
     return (
         <React.Fragment>
@@ -33,12 +38,12 @@ export const Home = () => {
                     <Grid item xs={12}>
                         <Paper className={classes.paper}>
                             <div className={classes.Main_center}>
-                                <div style={{ width: '50%', height: '760px' }}>
+                                <div style={{ width: '50%', height: '760px' }} ref={ref}>
                                     <h2 style={{ color: 'black', textAlign: 'center', marginTop: '50%', fontFamily: 'Serif' }}>
                                         Product information management is the process of managing all the information required to market and sell products through distribution channels
                                     </h2>
                                 </div>
-                                <div style={{ width: '50%' }}>
+                                <div style={{ width: '50%' }} >
                                     <img src={nikeShoe} alt="Nike Shoe" style={{ marginTop: '15%', width: '100%' }} />
                                 </div>
                             </div>
