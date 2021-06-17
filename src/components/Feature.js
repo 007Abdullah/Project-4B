@@ -2,12 +2,11 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import starts from './../images/starts.png';
 import { Cards } from './Cards';
 import ImgProductOne from './../images/prodcut-one-pixlr-bg-result.png';
 import ImgProductTwo from './../images/product-two-pixlr-bg-result.png';
 import ImgProductThree from './../images/product-three-pixlr-bg-result.png';
-
+import { Repeat } from './Repeat_Any';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -30,16 +29,7 @@ export const Feature = () => {
     const classes = useStyles();
     return (
         <React.Fragment>
-            <div style={{ textAlign: 'center' }}>
-                <h2 style={{ textAlign: 'center', fontFamily: 'Serif' }}>Feature Products</h2>
-                <figure>
-                    <img src={starts} alt="Starts" style={{ width: '2%' }} />
-                    <img src={starts} alt="Starts" style={{ width: '2%' }} />
-                    <img src={starts} alt="Starts" style={{ width: '2%' }} />
-                </figure>
-                <hr style={{ width: '12%' }} />
-
-            </div>
+            <Repeat text="Feature Products" />
             <br />
             <div className={classes.root}>
                 <Grid container>
