@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import { Home } from './components/Home';
 
 const useStyles = makeStyles(() => ({
   main_div: {
@@ -15,6 +16,7 @@ function App() {
   return (
     <React.Fragment>
       <div className={classes.main_div}>
+        <Home />
         
       </div>
     </React.Fragment>
