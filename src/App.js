@@ -5,9 +5,7 @@ import { Home } from './components/Home';
 const useStyles = makeStyles(() => ({
   main_div: {
     width: '100%',
-    height: 'auto',
-    display: 'flex',
-    backgroundColor: 'red'
+    height: 'auto'
   }
 }))
 
@@ -17,7 +15,7 @@ function App() {
     <React.Fragment>
       <div className={classes.main_div}>
         <Home />
-        
+
       </div>
     </React.Fragment>
   );

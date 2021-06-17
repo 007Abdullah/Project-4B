@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
+import nikeShoe from './../images/pixlr-bg-result.png';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -33,12 +34,12 @@ export const Home = () => {
                         <Paper className={classes.paper}>
                             <div className={classes.Main_center}>
                                 <div style={{ width: '50%', height: '760px' }}>
-                                    <h2 style={{ color: 'black', textAlign: 'center', marginTop: '40%' }}>
+                                    <h2 style={{ color: 'black', textAlign: 'center', marginTop: '50%', fontFamily: 'Serif' }}>
                                         Product information management is the process of managing all the information required to market and sell products through distribution channels
                                     </h2>
                                 </div>
                                 <div style={{ width: '50%' }}>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                    <img src={nikeShoe} alt="Nike Shoe" style={{ marginTop: '15%', width: '100%' }} />
                                 </div>
                             </div>
                         </Paper>
