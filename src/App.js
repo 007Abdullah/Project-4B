@@ -22,6 +22,7 @@ function App() {
         <Feature />
         <About />
         <Contact />
+        <h5 style={{ fontFamily: 'Serif', textAlign: 'center' }}>@MADE BY ABDULLAH</h5>
       </div>
     </React.Fragment>
   );

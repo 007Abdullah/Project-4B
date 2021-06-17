@@ -61,13 +61,14 @@ export const Contact = () => {
                                                 <Button variant="contained" color="primary" href="#contained-buttons">
                                                     Submit
                                                 </Button>
-
                                             </form>
                                         </div>
 
                                     </Paper>
                                 </div>
                             </div>
+                            <br />
+                            <br />
 
                         </Paper>
                     </Grid>
