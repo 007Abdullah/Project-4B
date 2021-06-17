@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/static/js/main.85dfe93b.chunk.js",
+    "main.js.map": "/static/js/main.85dfe93b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.06ab017a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.06ab017a.js.map",
+    "static/js/2.d977950a.chunk.js": "/static/js/2.d977950a.chunk.js",
+    "static/js/2.d977950a.chunk.js.map": "/static/js/2.d977950a.chunk.js.map",
+    "static/js/3.4bec0c24.chunk.js": "/static/js/3.4bec0c24.chunk.js",
+    "static/js/3.4bec0c24.chunk.js.map": "/static/js/3.4bec0c24.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.d977950a.chunk.js.LICENSE.txt": "/static/js/2.d977950a.chunk.js.LICENSE.txt",
+    "static/media/Get+In+Touch.7b26787e.png": "/static/media/Get+In+Touch.7b26787e.png",
+    "static/media/girl-pixlr-bg-result.b85ee413.png": "/static/media/girl-pixlr-bg-result.b85ee413.png",
+    "static/media/pixlr-bg-result.4d325563.png": "/static/media/pixlr-bg-result.4d325563.png",
+    "static/media/prodcut-one-pixlr-bg-result.47fe1c78.png": "/static/media/prodcut-one-pixlr-bg-result.47fe1c78.png",
+    "static/media/product-three-pixlr-bg-result.f9b69154.png": "/static/media/product-three-pixlr-bg-result.f9b69154.png",
+    "static/media/product-two-pixlr-bg-result.fcc1c329.png": "/static/media/product-two-pixlr-bg-result.fcc1c329.png",
+    "static/media/starts.dff44b49.png": "/static/media/starts.dff44b49.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06ab017a.js",
+    "static/js/2.d977950a.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.85dfe93b.chunk.js"
+  ]
+}
