@@ -5,7 +5,7 @@ import starts from './../images/starts.png';
 export const Repeat = (props) => {
     return (
         <React.Fragment>
-            <div style={{ textAlign: 'center' }}>
+            <div style={{ textAlign: 'center' }} data-aos="flip-right">
                 <h2 style={{ textAlign: 'center', fontFamily: 'Serif' }}>{props.text}</h2>
                 <figure>
                     <img src={starts} alt="Starts" style={{ width: '2%' }} />

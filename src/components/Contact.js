@@ -32,7 +32,7 @@ export const Contact = () => {
                     <Grid item xs={12}>
                         <Paper className={classes.paper}>
                             <div className={classes.ContactDiv}>
-                                <div style={{ width: '50%' }}>
+                                <div style={{ width: '50%' }} data-aos="fade-up-right">
                                     <Paper className={classes.paper} elevation={3}>
                                         <div style={{ padding: '5%' }}>
                                             <img src={ImgContact} alt="Contact Pic" style={{ width: '50%' }} />
@@ -63,7 +63,6 @@ export const Contact = () => {
                                                 </Button>
                                             </form>
                                         </div>
-
                                     </Paper>
                                 </div>
                             </div>

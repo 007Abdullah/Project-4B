@@ -35,17 +35,17 @@ export const Feature = () => {
                 <Grid container>
                     <div className={classes.feature_div}>
                         <Grid item xs={3}>
-                            <Paper className={classes.paper} elevation={3}>
+                            <Paper className={classes.paper} elevation={3} data-aos="flip-left">
                                 <Cards img={ImgProductOne} />
                             </Paper>
                         </Grid>
-                        <Grid item xs={3}>
-                            <Paper className={classes.paper} elevation={3}>
+                        <Grid item xs={3} >
+                            <Paper className={classes.paper} elevation={3} data-aos="flip-left">
                                 <Cards img={ImgProductTwo} />
                             </Paper>
                         </Grid>
                         <Grid item xs={3}>
-                            <Paper className={classes.paper} elevation={3}>
+                            <Paper className={classes.paper} elevation={3} data-aos="flip-left">
                                 <Cards img={ImgProductThree} />
                             </Paper>
                         </Grid>

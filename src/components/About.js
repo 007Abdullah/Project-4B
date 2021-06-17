@@ -39,7 +39,7 @@ export const About = () => {
                             <Repeat text="About Products" />
 
                             <div className={classes.AboutDiv}>
-                                <div style={{ color: 'Black', fontFamily: 'Serif', width: '50%', textAlign: 'start', marginTop: '10%', marginBottom: '10%' }}>
+                                <div style={{ color: 'Black', fontFamily: 'Serif', width: '50%', textAlign: 'start', marginTop: '10%', marginBottom: '10%' }} data-aos="flip-right">
                                     <h2>ABOUT</h2>
                                     <p style={{ textAlign: 'justify' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                         Lorem Ipsum has been the industry's standard dummy text ever since the
@@ -50,7 +50,7 @@ export const About = () => {
                                         sheets containing Lorem Ipsum passages, and more recently with desktop
                                         publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                                 </div>
-                                <div style={{ width: '50%' }}>
+                                <div style={{ width: '50%' }} data-aos="flip-left">
                                     <img src={GirlPic} alt="Girl Shoe" style={{ width: '100%' }} />
                                 </div>
                             </div>
